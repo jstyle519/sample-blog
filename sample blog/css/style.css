@@ -1,0 +1,116 @@
+body {
+   margin: 0px;
+   color: black;
+  }
+  .container {
+     width: 920px;
+     display: block;
+   }
+  
+  .header {
+    margin-top: 20px;
+  }
+  
+  .header-title-area {
+    text-align: center;
+  }
+
+  .h1 {
+    font-size: 32px;
+  }
+
+  .header-list li {
+    float: left;
+    padding: 0 15px;
+    text-align: center;
+    list-style-type: none;
+    }
+    
+    .header-list li a {
+      color: white;
+      text-decoration: none;
+      font-size: 14px
+    }
+    
+    .header-list {
+    width: 100%;
+    background-color: black;
+    padding: 12px 0px;
+   }
+  
+  .header-list:after {
+    clear: both;
+    display: block;
+    content: " ";
+   }
+   
+   .contents-left {
+     width: 600px;
+     padding: 30px;
+     float: left;
+   }
+   
+   .contents-right {
+     width: 300px;
+     float: right;
+   }
+   
+   .blog-list-area:after {
+    clear: both;
+    display: block;
+    content: " ";
+  }
+
+  .days {
+    font-size: 12px;
+  }
+
+  .contents {
+    margin-top: 20px;
+  }
+
+  .caption {
+    font-size: 10px;
+    color: #777;
+  }
+
+  .text-title {
+    border-bottom:  solid 2px #777;
+  }
+
+  .sample-title {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .copyright {
+    color: #777;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .main::after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+  
+  footer {
+    width: 920px;
+    margin: 20px auto;
+    padding-top: 20px;
+  }
+
+  footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    display: block;
+    margin-top: -20px;
+    width: 100%;
+    border-top: 1px solid #aeaeae;
+  }
